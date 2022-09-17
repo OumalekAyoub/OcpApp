@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ocpapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".add_equip"></activity>
+        <activity android:name=".add_secteur" />
+        <activity android:name=".point_plan" />
+        <activity android:name=".plan_list_admin" />
+        <activity android:name=".Choose_equip_admin" />
+        <activity
+            android:name=".login_admin"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity android:name=".Accueil" />
+        <activity android:name=".Choose_date" />
+        <activity android:name=".Profil" />
+        <activity android:name=".Help" />
+        <activity android:name=".Mes_plans" />
+        <activity android:name=".Point_historique" />
+        <activity android:name=".Historique_plan" />
+        <activity android:name=".New_occurence_plan" />
+        <activity android:name=".list_occurence_deconsigner" />
+        <activity android:name=".Point_deconsigner" />
+        <activity android:name=".list_occurence_verifier" />
+        <activity android:name=".Point_verification" />
+        <activity android:name=".list_occurence_cons" />
+        <activity android:name=".Choose_Equipement" />
+        <activity android:name=".New_point" />
+        <activity android:name=".Point_consignation" />
+        <activity android:name=".Plan_list_cons" />
+        <activity android:name=".New_plan2" />
+        <activity android:name=".New_plan1" />
+        <activity android:name=".test" />
+        <activity android:name=".admin_panel" />
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/AppTheme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".alert_dialoge" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

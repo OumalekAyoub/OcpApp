@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_elaborer"
+            android:icon="@drawable/ic_action_elaborer"
+            android:title="Élaborer un plan" />
+
+    </group>
+
+    <item android:title="Fonctions">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_add_secteur"
+                    android:icon="@drawable/ic_action_addd"
+                    android:title="Ajouter Secteur" />
+
+                <item
+                    android:id="@+id/nav_add_equip"
+                    android:icon="@drawable/ic_action_addd"
+                    android:title="Ajouter équipement" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_action_logout"
+                    android:title="Se déconnecter" />
+
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_action_help"
+                    android:title="Aidez-moi" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communiquer">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_action_share"
+                    android:title="Partager" />
+
+                <item
+                    android:id="@+id/nav_bus"
+                    android:icon="@drawable/ic_action_rate"
+                    android:title="Évaluez nous" />
+            </group>
+        </menu>
+    </item>
+</menu>
