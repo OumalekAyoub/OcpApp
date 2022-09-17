@@ -16,9 +16,8 @@ Today we have to rely on a digitalization solution. An opportunity both to gain 
 All logging procedures can also be grouped and filtered by site. On the other hand, consignment permits, signed electronically directly by the agent in the field via his smartphone. and then we will have an overall view of the operations in progress (consigned, verified, deconsigned...).
 
 ## App Overview
+https://user-images.githubusercontent.com/108620000/190864514-81cfef71-3d90-4fe8-8b79-f8456157799b.mp4
 
-###### Authentification
 
-<p float="left">
-  <img src=![0](https://user-images.githubusercontent.com/108620000/190860179-f8833960-3c86-4810-b560-fe4dae152957.png) width="100" />
-</p>
+## More details
+[rapport-ocp-LP.pdf](https://github.com/OumalekAyoub/OcpApp/files/9592140/rapport-ocp-LP.pdf)
